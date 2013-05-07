@@ -11,6 +11,10 @@ puts "The numers are #{num1} of class #{num1.class.to_s} and #{num2} of class #{
 puts 'What operation would you like to perform? 1) add 2)sub 3) multiply 4) divide'
 operation = gets.chomp
 
+def some_method
+	num1=5
+end
+
 if operation=='1'
 	binding.pry #control+d to get the result
 	result=num1.to_i + num2.to_i
