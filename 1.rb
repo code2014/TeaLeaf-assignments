@@ -1,6 +1,9 @@
 require 'pry'
 
 def init
+  card=[]
+  mycard=[]
+  dealercard=[]
   number=['2','3','4','5','6','7','8','9','10','J','Q','K']
   suit=['H','D','S','C']
   card= number.product(suit)
